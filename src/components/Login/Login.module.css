@@ -1,0 +1,89 @@
+.inputs_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  
+    .inputs_container label{
+      width: 95%;
+      font-size: 1.5rem;
+      text-align: left;
+  
+    }
+  
+    .inputs_container input {
+        width: 95%;
+        margin: 0.8rem 0;
+        padding: 0.8rem;
+        font-size: 1rem;
+        font-family: inherit;
+        background-color: white;
+        outline: 0;
+        border: 0;
+      }
+  
+    .inputs_container button{
+        margin: 1rem 0;
+        padding: 10px;
+        height: 50px;
+        width: 100px;
+        color: white;
+        background-color: rgb(103, 214, 103);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+  
+    .navigate{
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    .dashbord{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      color: black;
+      margin-left: 30px;
+      margin-left: 30px;
+      width: 80%;
+    }
+
+    .dashbord h1{
+      color : rgb(103, 214, 103);
+    }
+
+    .dashbord h5{
+      margin: 0;
+    }
+
+    .dashbord img{
+      height: 80px;
+    }
+
+    .dashbord li{
+      text-decoration: none;
+      list-style: none;
+      font-size: 16px;
+      text-align: start;
+      margin-bottom: 20px;
+      color : white;
+      background-color: rgb(103, 214, 103);
+      padding: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    /* .dashbord ul{
+      width: 60%;
+      background-color: gray;
+      border-radius: 20px;
+    } */
+
+    /* .logosvg{
+      position: absolute;
+      bottom: 110px;
+      left: 500px;
+    } */

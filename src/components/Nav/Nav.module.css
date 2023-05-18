@@ -1,0 +1,56 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav img{
+    height: 35px;
+}
+
+.searchbar{
+    border: none;
+    background-color: rgb(219, 218, 218);
+    border-radius: 10px;
+    height: 30px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar input{
+    background: transparent;
+    border: none;
+}
+
+.searchbar svg{
+    cursor: pointer;
+}
+
+.profile{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile img{
+    height: 35px;
+    border-radius: 50px;
+}
+
+.profile button{
+    border: none;
+    color: white;
+    background-color: rgb(103, 214, 103);
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
